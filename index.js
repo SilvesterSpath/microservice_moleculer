@@ -1,9 +1,6 @@
 import { ServiceBroker } from 'moleculer';
 
-console.log(ServiceBroker);
-
 const broker = new ServiceBroker();
-console.log(broker);
 
 // Greeter Service
 broker.createService({
